@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"rel="stylesheet");
+
+.App {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.app-heading {
+  font-size: 2.2rem;
+  margin-top: 23px;
+}
+
+.app-sub-heading {
+  font-size: 1.5rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.app-button {
+  font-family: "Montserrat", sans-serif;
+  background: black;
+  border: 2px solid rgb(212, 107, 8);
+  padding: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px;
+  border-radius: 10px;
+  transition: background-color 0.5s;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.app-button:focus {
+  background: orange;
+  color: white;
+}
+
+.app-recommended-book {
+  margin: 10px auto;
+  max-width: 500px;
+  padding: 5px;
+}
+
+.app-book-card-heading {
+  font-size: 18px;
+}
+
+.app-book-card-rating {
+  font-weight: 400;
+}
+
+.app-book-card {
+  border: 2px solid rgb(238, 121, 11);
+  margin: 15px;
+}
