@@ -72,7 +72,7 @@ export default function App() {
       <div className="app-heading">Books for Beginners</div>
       <hr className="app-hr" />
       <div className="app-sub-heading">
-        select the genre to get recommendation
+        select the Topics to checkout the books
       </div>
       <div className="app-button-container">
         {genereArray.map((genre) => (
